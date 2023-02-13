@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script:wght@500&family=Itim&family=Playfair+Display:ital,wght@1,400;1,600&display=swap');
+*{
+    margin: 10px;
+    padding: 0px;
+    font-style: normal;
+}
+nav .logo{
+    width: 300px;
+    height: 320px;
+    margin-top: -95px;
+    margin-left: -120px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin-left: 100px;
+    align-content: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 10px 20px;
+    margin-top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: red;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 10%;
+
+
+}
+.title h1{
+    font-size: 50px;
+    color: brown;
+    margin-bottom: 30px;
+}
+.title span{
+    color: burlywood;
+}
+.title p{
+    color: gray;
+    font-style: italic;
+    
+}
+.title a{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+
+
+}
+.images:hover .shape{
+    bottom: 70px;
+}
+.images:hover .girl{
+    left: 40%;
+
+}
+#about{
+    margin-left: 8%;
+    margin-top: 13%;
+    margin-right: 8%;
+}
+.headings{
+    text-align: center;
+}
+.headings h2{
+    font-size: 30px;
+}
+.headings span{
+    font size: 20px;
+    color:brown;
+    
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+.about-img img{
+    width: 90%;
+    border-radius: 0%;
+}
+.about-text{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+.informations{
+    margin: 1 rem 0 1.4rem;
+}
+.informations .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+.informations .info-box span{
+    font-weight: 400;
+    margin-left: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#skill{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+
+
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    
+}
+.skill-images{
+    width: 50%;
+    object-position: center;
+    padding-left: 4rem
+    
+}
+.bar-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem,0;
+    margin-bottom: 1rem;
+
+
+}
+.bar-box h3,span{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.light-bar{
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 60px;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background-color: lightblue;
+    
+
+}
+.percent-bar{
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 60px;
+    left: 0;
+    width: 54%;
+    height: 0.5rem;
+    background-color: blue;
+}
+.html-bar{
+    width: 94%;
+
+}
+.css-bar{
+    width: 90%;
+}
+.react-bar{
+    width: 88%;
+}
+#contact{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+
+
+}
+.icondiv{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-color: aliceblue;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+.icon i{
+    font-size: 30px;
+}
+.icon:hover{
+     background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+}
+footer{
+    margin-top: 1rem;
+    font-style: italic;
+}
+.up-arrow{
+    background-color: yellow;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 1200px;
+}
